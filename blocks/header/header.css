@@ -1,0 +1,38 @@
+.header {
+    margin: 0px;
+    margin-top: 28px;
+    max-height: 52px;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  @media screen and (max-width: 1024px){
+    .header{
+      max-width: 928px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .header{
+      max-width: 100%;
+      margin-top: 28px;
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .header{
+      max-width: 288px;
+      max-height: 42px;
+      margin-top: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  }
