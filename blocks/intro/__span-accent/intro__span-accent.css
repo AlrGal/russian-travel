@@ -1,8 +1,8 @@
-.intro__list_span{
+.intro__span-accent{
     font-weight: 400;
 }
 @media screen and (max-width: 320px){
-    .intro__list_span{
+    .intro__span-accent{
         max-width: 288px;
     }
   }
