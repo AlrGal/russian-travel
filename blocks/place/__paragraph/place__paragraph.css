@@ -24,7 +24,7 @@
     .place__paragraph{
         max-width: 352px;
         font-size: 16px;
-        overflow-wrap: anywhere;
+        word-wrap: break-word;    
     }
   }
 
