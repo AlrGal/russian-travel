@@ -19,6 +19,8 @@
     .places{
       grid-template-columns: 93.75%;
       gap: 73px;
+      margin-left: 24px;
+      margin-right: 24px;
     }
   }
 
@@ -26,6 +28,9 @@
     .places{
         width: 100%;
         gap: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: 1fr;
 
     }
   }
