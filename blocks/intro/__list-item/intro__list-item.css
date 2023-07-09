@@ -1,0 +1,15 @@
+.intro__list-item{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+@media screen and (max-width: 320px){
+    .intro__list-item{
+        width: 100%;
+    }
+  }

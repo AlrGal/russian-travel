@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     max-width: 720px;
-    min-height: 200px;
     color: #fff;
     text-align: center;
     font-size: 96px;
@@ -10,12 +9,12 @@
     font-style: normal;
     font-weight: 900;
     line-height: 100px;
+    word-break: break-word;
 }
 
 @media screen and (max-width: 320px){
     .lead__title{
         max-width: 288px;
-        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
 

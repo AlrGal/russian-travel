@@ -8,14 +8,12 @@
     flex-direction: column;
     margin-top: 56px;
     max-width: 984px;
-    min-height: 1005px;
     margin-left: auto;
     margin-right: auto;
 }
 @media screen and (max-width: 1024px){
     .lead{
         max-width: 928px;
-        min-height: 962px;
         margin-top: 48px;
     }
   }
@@ -23,7 +21,6 @@
   @media screen and (max-width: 768px){
     .lead{
         max-width: 768px;
-        min-height: 862px;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 48px;
@@ -32,8 +29,7 @@
 
   @media screen and (max-width: 320px){
     .lead{
-        max-width: 320px;
-        min-height: 406px;
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 48px;

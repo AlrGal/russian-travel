@@ -25,6 +25,7 @@
         line-height: 24px;
         margin-right: 0px;
         padding-top: 32px;
+        overflow-wrap: anywhere;
     }
     .footer__link:first-of-type{
         padding-top: 0px;
