@@ -7,8 +7,8 @@
     align-items: end;
     position: relative;
     overflow: hidden;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 
   @media screen and (max-width: 1024px){
