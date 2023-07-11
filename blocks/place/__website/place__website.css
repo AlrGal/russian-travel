@@ -10,17 +10,19 @@
 
   @media screen and (max-width: 768px){
     .place__website{
-        max-width: 352px;
+        width: 100%;
     }
   }
 
   @media screen and (max-width: 320px){
     .place__website{
-        max-width: 288px;
+        margin: 0 16px;
+        width: 90%;
+        max-width: 285px;
         align-self: flex-start;
-        padding-left: 16px;
-        padding-right: 16px;
         margin-top: 32px;
+        display: flex;
+        flex-direction: column;
 
     }
   }

@@ -28,9 +28,12 @@
 
   @media screen and (max-width: 320px){
     .photo-grid{
-      max-width: 288px;
+      max-width: calc (100% - 32px);
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 1fr);
       margin-top: 64px;
-      gap: 14px 0;
-
+      gap: 12px 0;
+      margin-left: 16px;
+      margin-right: 16px;
     }
   }
