@@ -12,6 +12,18 @@
     word-break: break-word;
 }
 
+  @media screen and (max-width: 650px){
+    .lead__title{
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+  }
+  @media screen and (max-width: 450px){
+    .lead__title{
+      font-size: 50px;
+    }
+  }
+
 @media screen and (max-width: 320px){
     .lead__title{
         max-width: 288px;

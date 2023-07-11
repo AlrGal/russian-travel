@@ -21,6 +21,11 @@
         padding-top: 56px;
     }
 }
+@media screen and (max-width: 450px){
+    .lead__image{
+        padding-top: 50px;
+    }
+  }
 
 @media screen and (max-width: 320px){
   .lead__image{

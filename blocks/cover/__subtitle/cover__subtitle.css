@@ -15,6 +15,14 @@
     z-index: 5;
     margin-top: 32px;
 }
+
+@media screen and (max-width: 650px){
+  .cover__subtitle{
+    font-size: 16px;
+    line-height: 1.2em;
+  }
+}
+
   @media screen and (max-width: 320px){
     .cover__subtitle{
         max-width: 288px;
